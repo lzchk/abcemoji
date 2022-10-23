@@ -1,0 +1,81 @@
+body{
+	padding: 0 auto;
+	margin: 0 auto;
+	background-color: #EDEEF3;
+	font-family: 'Inter';
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+}
+
+Header{
+	background-color: #196B78;
+  height: 35vh;
+	width: 100%;
+	text-align: center;
+	color: #CCF8FF;
+	box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+}
+
+.header_name{
+	font-size: 72px;
+	padding-top: 8vw;
+	font-weight: 700;
+}
+
+.header_desc{
+	font-size: 21px;
+	margin-top: 1.3vw;
+}
+
+form{
+	display: flex;
+	justify-content: center;
+}
+
+input{
+    width: 50vw;
+    height: 4vw;
+    margin-top: -2vh;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    font-size: 24px;
+    padding-left: 2vw;
+}
+
+.emoji{
+	margin: 45vh auto;
+	width: 68.611vw;
+	flex-wrap: wrap;
+}
+
+.emoji-card{
+	background-color: white;
+	width: 18vw;
+	height: 16vh;
+	text-align: center;
+	padding: 1vw;
+	    margin: 1vw;
+}
+
+.symbol{
+	font-size: 48px;
+}
+
+.title{
+	font-weight: 700;
+	text-decoration-line: underline;
+	margin-top: 1.250vw;
+	margin-bottom: 0.833vw;
+}
+
+.hide{
+	display: none;
+}
